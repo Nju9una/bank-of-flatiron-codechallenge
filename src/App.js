@@ -31,7 +31,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>The Royal Bank of Flatiron</h1>
+        <h1 className="bank-header">The Royal Bank of Flatiron</h1>
         <SearchBar onSearch={setSearchTerm} />
         <div className="input-section">
           <TransactionForm onSubmit={addTransaction} />

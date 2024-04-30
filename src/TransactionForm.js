@@ -50,7 +50,8 @@ const TransactionForm = ({ onSubmit }) => {
             required
           />
         </label>
-        <button type="submit">Add Transaction</button>
+        <button type="submit" style={{ fontSize: '16px', padding: '10px 20px', backgroundColor: 'grey', color: 'white' }}>Add Transaction</button>
+
       </form>
     </div>
   );
